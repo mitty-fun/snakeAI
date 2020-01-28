@@ -45,6 +45,12 @@ body {
     box-shadow: 0px 0px 10px #84f542;
 }
 
+.col.bg-orange::after {
+    background-color: orange;
+    box-shadow: 0px 0px 10px orange;
+    transform: scale(0.3);
+}
+
 .col.bg-black::after {
     background-color: #222222;
     box-shadow: 0px 0px 10px #222222;
